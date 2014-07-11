@@ -33,7 +33,7 @@ p span {
     background: rgb(0, 0, 0);
     /* fallback color */
     background: rgba(0, 0, 0, 0.5);
-    padding: 4.5px;
+    padding: 5px;
 }
 body {
     background: #fff;
