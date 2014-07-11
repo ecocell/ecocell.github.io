@@ -20,17 +20,15 @@ url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');
 
 h2 span {
     color: white;
-    letter-spacing: -1px;
-    font-family: 'helvetica', 'sans-serif';
+    font: bold 80px Helvetica, Sans-Serif;
     /*
     font-family: 'Ubuntu Condensed', sans-serif;
-    */
-    font-size: 90px;
-    line-height: 1.25em;
+*/
+    letter-spacing: -1px;
     background: rgb(0, 0, 0);
     /* fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7.5px;
 }
 p span {
     color: white;
