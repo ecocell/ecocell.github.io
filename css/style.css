@@ -54,13 +54,18 @@ body.loading {} body.loading * {
     transition: none !important;
 }
 h2 {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    /*    font-family: 'Ubuntu Condensed', sans-serif;
+*/
+    font-family: 'helvetica', 'sans-serif';
 }
 body,
 input,
 textarea,
 select {
+    /*
     font-family: 'Source Sans Pro', sans-serif;
+    */
+    font-family: 'helvetica', 'sans-serif';
     font-weight: 300;
     font-size: 18pt;
     line-height: 1.75em;
