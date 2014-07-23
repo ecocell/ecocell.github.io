@@ -12,23 +12,19 @@ url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');
  font-weight:normal;
  font-style:normal
 }
-/*********************************************************************************/
+/*********************************************************************************
+Basic
+*********************************************************************************/
 
-/* Basic                                                                         */
-
-/*********************************************************************************/
-
-h2 span {
-    color: white;
-    font: bold 80px Helvetica, Sans-Serif;
-    /*
-    font-family: 'Ubuntu Condensed', sans-serif;
-*/
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 7.5px;
+h2 {
+    /*    font-family: 'Ubuntu Condensed', sans-serif;
+    */
+    color: red;
+    font-family: : 'helvetica', Sans-Serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 1.25em;
 }
 p span {
     color: white;
@@ -38,10 +34,15 @@ p span {
     */
     letter-spacing: -1px;
     font-size: 20px;
-    background: rgb(0, 0, 0);
-    /* fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    padding: 5px;
+}
+p {
+    color: black;
+    font-family: 'helvetica', 'sans-serif';
+    /*
+    font-family: 'Source Sans Pro', sans-serif;
+    */
+    letter-spacing: -1px;
+    font-size: 20px;
 }
 body {
     background: #fff;
@@ -52,11 +53,6 @@ body.loading {} body.loading * {
     -o-transition: none !important;
     -ms-transition: none !important;
     transition: none !important;
-}
-h2 {
-    /*    font-family: 'Ubuntu Condensed', sans-serif;
-*/
-    font-family: 'helvetica', 'sans-serif';
 }
 body,
 input,
@@ -89,11 +85,6 @@ h5 a,
 h6 a {
     color: inherit;
     text-decoration: none;
-}
-h2 {
-    font-size: 2.25em;
-    letter-spacing: -2px;
-    line-height: 1.25em;
 }
 strong,
 b {
@@ -1915,7 +1906,7 @@ body {
 #nav ul li {
     display: inline-block;
     margin-left: 0.5em;
-    font-size: 0.9em;
+    font-size: 0.6em;
 }
 #nav ul li a {
     display: block;
