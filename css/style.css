@@ -6,6 +6,7 @@ url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');
  font-weight:normal;
  font-style:normal
 }
+
 /*********************************************************************************
 Tabs
 *********************************************************************************/
@@ -13,8 +14,10 @@ Tabs
 /*----- Tab -----*/
 
 .tabs {
-    width: 100%;
+    width: 800px;
     display: inline-block;
+    margin: auto;
+    
 }
 /*----- Tab Links -----*/
 
