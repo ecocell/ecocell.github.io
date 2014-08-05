@@ -8,10 +8,10 @@
 			useFullScreen: true,
 			
 		// Section Transitions
-			useSectionTransitions: true,
+			useSectionTransitions: false,
 
 		// Fade in speed (in ms)
-			fadeInSpeed: 1000,
+			fadeInSpeed: 10,
 
 		// skel
 			skel: {
